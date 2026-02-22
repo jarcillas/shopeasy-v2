@@ -1,7 +1,7 @@
 import { Link } from 'expo-router';
 import { Text, View } from 'react-native';
 
-export default function Index() {
+export default function List() {
   return (
     <View
       style={{
@@ -10,9 +10,9 @@ export default function Index() {
         alignItems: 'center',
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-      <Link href="/list">
-        <Text>Go to List Screen</Text>
+      <Text>Shoplists will be here</Text>
+      <Link href="/details">
+        <Text>Go to Details Screen</Text>
       </Link>
     </View>
   );
