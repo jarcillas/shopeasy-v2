@@ -1,15 +1,16 @@
-import { Text, View } from 'react-native';
+import { Text } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function Details() {
   return (
-    <View
+    <SafeAreaView
       style={{
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
       }}
     >
-      <Text>Item details will be here</Text>
-    </View>
+      <Text>This is </Text>
+    </SafeAreaView>
   );
 }
